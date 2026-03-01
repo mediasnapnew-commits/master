@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Official Prediction App</title>
+
+<!-- META PIXEL CODE HERE -->
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#000;
+color:white;
+text-align:center;
+}
+
+/* Logo */
+
+.logoBox{
+
+margin-top:20px;
+
+}
+
+.logo{
+
+width:90px;
+height:90px;
+border-radius:50%;
+border:4px solid #FFD700;
+
+}
+
+
+/* Header */
+
+.header{
+
+background:#cc0000;
+padding:15px;
+font-size:24px;
+font-weight:bold;
+
+}
+
+
+/* Live Bar */
+
+.live{
+
+background:#FFD700;
+color:black;
+padding:8px;
+font-weight:bold;
+
+}
+
+
+/* Hero */
+
+.hero{
+
+padding:20px;
+
+}
+
+.hero h1{
+
+color:#FFD700;
+font-size:28px;
+
+}
+
+
+/* Users */
+
+.users{
+
+color:#00ff00;
+font-size:22px;
+margin:10px;
+
+}
+
+
+/* Buttons */
+
+.btn{
+
+display:block;
+width:92%;
+max-width:430px;
+margin:18px auto;
+padding:18px;
+font-size:22px;
+font-weight:bold;
+background:#FFD700;
+color:black;
+text-decoration:none;
+border-radius:12px;
+
+}
+
+
+/* Timer */
+
+.timer{
+
+font-size:26px;
+margin:20px;
+
+}
+
+
+/* Result */
+
+.result{
+
+background:#111;
+padding:20px;
+margin:15px;
+border-radius:10px;
+
+}
+
+.win{
+
+color:#00ff00;
+font-size:20px;
+
+}
+
+
+/* Section */
+
+.section{
+
+padding:25px;
+border-bottom:1px solid #333;
+
+}
+
+.big{
+
+color:#FFD700;
+font-size:24px;
+
+}
+
+
+/* Popup */
+
+.popup{
+
+position:fixed;
+bottom:90px;
+left:10px;
+background:#cc0000;
+padding:10px;
+border-radius:8px;
+display:none;
+
+}
+
+
+/* Sticky */
+
+.sticky{
+
+position:fixed;
+bottom:0;
+width:100%;
+background:#FFD700;
+padding:16px;
+font-size:24px;
+font-weight:bold;
+
+}
+
+.sticky a{
+
+color:black;
+text-decoration:none;
+
+}
+
+
+/* Disclaimer */
+
+.disclaimer{
+
+background:#111;
+padding:20px;
+font-size:12px;
+color:#aaa;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<!-- LOGO -->
+
+<div class="logoBox">
+
+<img src="https://github.com/glpmali786-cpu/lakshmikalyanmtkimg/releases/download/lksmi/laxmikalyan.webp" class="logo">
+
+</div>
+
+
+
+<div class="header">
+
+LAKSHMI KALYAN OFFICIAL
+
+</div>
+
+
+
+<div class="live">
+
+● LIVE DOWNLOAD RUNNING
+
+</div>
+
+
+
+<div class="hero">
+
+<h1>Official Prediction App</h1>
+
+
+
+<div class="users">
+
+🔥 <span id="user">452321</span> Users Online
+
+</div>
+
+
+
+<a href="https://github.com/glpmali786-cpu/lakshmikalyanmtk/releases/download/laksmikalyanmatka/laxmikayan.apk"
+
+onclick="fbq('track','Subscribe',{value:0,currency:'INR'});"
+
+class="btn">
+
+⬇️ DOWNLOAD APP NOW
+
+</a>
+
+
+
+<div class="timer">
+
+Auto Open In
+
+<span id="count">20</span>
+
+Sec
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="result">
+
+<div class="big">
+
+Today's Record
+
+</div>
+
+<br>
+
+<div class="win">10:00 ✔ PASS</div>
+
+<div class="win">11:00 ✔ PASS</div>
+
+<div class="win">12:00 ✔ PASS</div>
+
+<div class="win">1:00 ✔ PASS</div>
+
+<div class="win">2:00 ✔ PASS</div>
+
+</div>
+
+
+
+
+<div class="section">
+
+<div class="big">
+
+Why Join ?
+
+</div>
+
+<br>
+
+✔ Fast Service<br><br>
+
+✔ Daily Update<br><br>
+
+✔ Easy Use<br><br>
+
+✔ Free Access
+
+</div>
+
+
+
+
+<!-- GET FREE ID BUTTON -->
+
+<a href="https://github.com/glpmali786-cpu/lakshmikalyanmtk/releases/download/laksmikalyanmatka/laxmikayan.apk"
+
+onclick="fbq('track','Subscribe',{value:0,currency:'INR'});"
+
+class="btn">
+
+🔥 GET FREE ID
+
+</a>
+
+
+
+
+<div class="section">
+
+<div class="big">
+
+Limited Entry
+
+</div>
+
+<br>
+
+Only Limited Users Allowed Today
+
+</div>
+
+
+
+
+<div class="popup" id="pop">
+
+User Downloaded App
+
+</div>
+
+
+
+
+<div class="sticky">
+
+<a href="https://github.com/glpmali786-cpu/lakshmikalyanmtk/releases/download/laksmikalyanmatka/laxmikayan.apk"
+
+onclick="fbq('track','Subscribe',{value:0,currency:'INR'});">
+
+⬇️ DOWNLOAD APP
+
+</a>
+
+</div>
+
+
+
+
+<div class="disclaimer">
+
+Disclaimer :
+
+This website is for informational purposes only.
+We do not guarantee results.
+Use at your own risk.
+
+</div>
+
+
+
+
+<script>
+
+
+/* Timer */
+
+var time=20;
+
+setInterval(function(){
+
+time--;
+
+document.getElementById("count").innerHTML=time;
+
+if(time<=0){
+
+fbq('track','Subscribe',{value:0,currency:'INR'});
+
+window.location="YOUR_LINK";
+
+}
+
+},1000);
+
+
+
+/* Fake Users */
+
+setInterval(function(){
+
+var x=450000 + Math.floor(Math.random()*5000);
+
+document.getElementById("user").innerHTML=x;
+
+},4000);
+
+
+
+/* Popup */
+
+setInterval(function(){
+
+document.getElementById("pop").style.display="block";
+
+setTimeout(function(){
+
+document.getElementById("pop").style.display="none";
+
+},3000);
+
+},6000);
+
+
+
+</script>
+
+
+
+</body>
+</html>
